@@ -3,7 +3,7 @@ import React, {useEffect, useRef, Fragment} from 'react';
 import {WebView, WebViewMessageEvent} from 'react-native-webview';
 
 const TEST_WITH_PRODUCTION = 'https://orders-app.com/';
-const TEST_WITH_LOCAL = 'http://192.168.1.11/php-crud/';
+const TEST_WITH_LOCAL = 'http://192.168.1.3/1-php-grading-system/';
 // const TEST_WITH_LOCAL = 'http://192.168.1.8:3000/login';
 
 
@@ -63,7 +63,7 @@ export default function App() {
         <SafeAreaView style={{backgroundColor: '#000'}}/>
         <StatusBar backgroundColor='black'/>
         <WebView
-            source={{uri: TEST_WITH_PRODUCTION}}
+            source={{uri: TEST_WITH_LOCAL}}
             useWebKit={true}
             scalesPageToFit={true}
             javaScriptEnabled={true}
