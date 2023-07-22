@@ -1,0 +1,46 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Ajio It Solution\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Users\Ajio It Solution\AppData\Local\Android\Sdk;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Users\Ajio It Solution\AppData\Local\Microsoft\WindowsApps;C:\Users\Ajio It Solution\AppData\Roaming\npm;C:\Users\Ajio It Solution\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Ajio It Solution\AppData\Roaming\nvm\;C:\Users\Ajio\AppData\Roaming\nvm;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\php-7.3.16;C:\Program Files\dotnet\;C:\Program Files\Java\jdk1.8.0_202\bin;C:\composer;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\ComposerSetup\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\apache-maven-3.9.1\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Ruby31-x64\bin;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Users\Ajio It Solution\AppData\Local\Android\Sdk;C:\Users\Ajio It Solution\AppData\Roaming\nvm\;C:\Users\Ajio It Solution\AppData\Local\Microsoft\WindowsApps;C:\Users\Ajio It Solution\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Ajio\AppData\Roaming\nvm;C:\Users\Ajio It Solution\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Ajio It Solution\AppData\Local\GitHubDesktop\bin;C:\Users\Ajio It Solution\AppData\Roaming\npm;C:\Users\Ajio It Solution\AppData\Roaming\Composer\vendor\bin;;C:\Users\Ajio It Solution\Documents\React Native\grading-system-back\node_modules\.bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.15.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: 2388:error:1408F119:SSL routines:ssl3_get_record:decryption failed or bad record mac:c:\ws\deps\openssl\openssl\ssl\record\ssl3_record.c:677:
+
+npm manifest: 
+  {
+    "name": "grading-system-back",
+    "version": "1.0.0",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web"
+    },
+    "dependencies": {
+      "expo": "~48.0.18",
+      "expo-status-bar": "~1.4.4",
+      "react": "18.2.0",
+      "react-native": "0.71.8"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.20.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
